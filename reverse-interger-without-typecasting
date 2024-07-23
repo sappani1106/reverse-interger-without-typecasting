@@ -1,0 +1,8 @@
+transmit_data = int(input())
+sever_data = []
+while transmit_data > 0:
+    rem = transmit_data %10
+    sever_data.append(rem)
+    transmit_data = transmit_data // 10
+for i in sever_data:
+    print(i,end = '')
